@@ -1,0 +1,12 @@
+
+
+
+@media screen and (max-width: 640px) {
+    .under_banner_sec{display: none;}        
+}
+@media screen and (max-width: 746px) {
+    .under_banner_sec{display: none;}        
+}
+@media screen and (max-width: 992px) {
+    .under_banner_sec{display: none;}        
+}
