@@ -2,5 +2,5 @@
 
 
 git add .
-git commit -m "bonus1 complete"
+git commit -m "slider and Team section added"
 git push
