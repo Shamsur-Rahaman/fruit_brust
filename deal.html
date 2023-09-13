@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fruit Brust</title>
+    <title>Deal Section</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
-   <script>
+    <script>
         tailwind.config = {
         theme: {
             extend: {
@@ -25,180 +25,11 @@
         }
         }
     </script>
-    
 </head>
 <body>
-    <!-- Nav section start -->
 
-        <section class="bg-bi_color rounded-full">
-        <div class="navbar">
-
-            <!-- Nav Start -->
-            <div class="navbar-start">
-                <div class="dropdown">
-                    <label tabindex="0" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-32">
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About Us</a></li>
-                      <li><a href="#">Shop</a></li>
-                      <li><a href="#">All Fruits</a></li>
-                    </ul>
-                </div>
-                <div class="navbar-start hidden lg:flex w-96 text-white hover:bg-bi_color">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">All Fruits</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Nav center -->
-            <div class="navbar-center gap-2">
-                <img src="images/logo.png" alt="">
-                <h1 class="text-4xl text-white font-bold">Fruit Brust</h1>
-            </div>
-
-
-            <!-- Nav end -->
-            <div class="navbar-end">
-                <input type="text" placeholder="Search here" class="relative border-none input rounded-full mr-5 w-full max-w-xs"/>
-                
-                <i class="fa text-base absolute right-12 top-6">&#xf002;</i>
-                
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Nav section end -->
-
-    <!-- Slide section start -->
-
-        <section class="max-w-fit mx-auto relative z-10">
-
-    <div class="carousel w-[90vw] mt-10 mb-10 h-[70vh]">
-
-        <!-- Slider 1 -->
-        <div id="slide1" class="carousel-item relative w-full">
-            <div class="hero" style="background-image: url(images/banner1.png);">
-                <div class="hero-overlay bg-opacity-30"></div>
-                <div class="hero-content text-center text-white">
-                    <div class="max-w-md space-y-5">
-                        <!-- <img src="images/review/user-1.png" alt="" class="h-16 mx-auto"> -->
-                        <h1 class="text-4xl font-bold">Exotic taste at your doorstep</h1>
-                        <p class="">Our Fresh and Refreshing Fruits will bring back your Happiness</p>
-                        <button type="button" class="btn text-white bg-bi_color border-none hover:text-[#F58559]">Shop Now</button>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="absolute flex justify-between opacity-70 transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" class="btn btn-circle">❮</a> 
-                <a href="#slide2" class="btn btn-circle">❯</a>
-            </div>
-        </div>  
-
-
-        <!-- Slider 2 -->
-         <div id="slide2" class="carousel-item relative w-full">
-            <div class="hero" style="background-image: url(images/banner2.png);">
-                <div class="hero-overlay bg-opacity-30"></div>
-                <div class="hero-content text-center text-white">
-                    <div class="max-w-md space-y-5">
-                        <!-- <img src="images/review/user-2.png" alt="" class="h-16 mx-auto"> -->
-                        <h1 class="text-4xl font-bold">Exotic taste at your doorstep</h1>
-                        <p class="">Our Fresh and Refreshing Fruits will bring back your Happiness</p>
-                        <button type="button" class="btn text-white bg-bi_color border-none hover:text-[#F58559]">Shop Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="absolute flex justify-between  opacity-70 transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide1" class="btn btn-circle">❮</a> 
-                <a href="#slide3" class="btn btn-circle">❯</a>
-            </div>
-        </div> 
-
-
-        <!-- Slider 3 -->
-        <div id="slide3" class="carousel-item relative w-full">
-            <div class="hero" style="background-image: url(images/banner3.png);">
-                <div class="hero-overlay bg-opacity-30"></div>
-                <div class="hero-content text-center text-white">
-                    <div class="max-w-md space-y-5">
-                        <!-- <img src="images/review/user-3.png" alt="" class="h-16 mx-auto"> -->
-                        <h1 class="text-4xl font-bold">Exotic taste at your doorstep</h1>
-                        <p class="">Our Fresh and Refreshing Fruits will bring back your Happiness</p>
-                        <button type="button" class="btn text-white bg-bi_color border-none hover:text-[#F58559]">Shop Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="absolute flex justify-between  opacity-70 transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2" class="btn btn-circle">❮</a> 
-                <a href="#slide4" class="btn btn-circle">❯</a>
-            </div>
-        </div>
-
-
-        <!-- Slider 4 -->
-        <div id="slide4" class="carousel-item relative w-full">
-            <div class="hero" style="background-image: url(images/banner4.png);">
-                <div class="hero-overlay bg-opacity-30"></div>
-                <div class="hero-content text-center text-white">
-                    <div class="max-w-md space-y-5">
-                        <!-- <img src="images/review/user-3.png" alt="" class="h-16 mx-auto"> -->
-                       <h1 class="text-4xl font-bold">Exotic taste at your doorstep</h1>
-                        <p class="">Our Fresh and Refreshing Fruits will bring back your Happiness</p>
-                        <button type="button" class="btn text-white bg-bi_color border-none hover:text-[#F58559]">Shop Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="absolute flex justify-between  opacity-70 transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide3" class="btn btn-circle">❮</a> 
-                <a href="#slide1" class="btn btn-circle">❯</a>
-            </div>
-        </div>    
-
-   </div>
-        
-   </section>
-
-   <!-- Bonus section -->
-   <section class="max-w-fit mx-auto shadow-lg absolute bottom-[1px] left-1/4 z-30 bg-white under_banner_sec rounded-lg">
-
-        <div class="flex flex-row gap-7 px-14 py-8">
-            <div class="flex flex-col items-center justify-center">
-                <img src="images/fruit1.png" alt="" class="w-24 h-20">
-                <h1>Grape</h1>
-            </div>
-            <div class="flex flex-col items-center justify-center">
-                <img src="images/fruit2.png" alt="" class="w-24 h-20">
-                <h1>Grape</h1>
-            </div>
-            <div class="flex flex-col items-center justify-center">
-                <img src="images/fruit3.png" alt="" class="w-24 h-20">
-                <h1>Grape</h1>
-            </div>
-            <div class="flex flex-col items-center justify-center">
-                <img src="images/fruit4.png" alt="" class="w-24 h-20">
-                <h1>Grape</h1>
-            </div>
-            <div class="flex flex-col items-center justify-center">
-                <img src="images/fruit5.png" alt="" class="w-24 h-20">
-                <h1>Grape</h1>
-            </div>
-        </div>
-        
-    </section>
-
-    <!-- Slide section end -->
-
-    <!-- Deal section start -->
-
-         <section class="mt-20 w-[90vw] mx-auto mb-10">
+    <!-- Team Section -->
+    <section class="mt-10 w-[90vw] mx-auto mb-10">
 
             <!-- Deal content -->
             <div class="flex lg:flex-row flex-col justify-between items-center md:space-y-5 sm:space-y-3">
@@ -474,206 +305,17 @@
         </div>    
     </section>
 
-    <!-- Deal section end -->
-
-    <!-- Team section start -->
-
-        <section class="hero mt-10 w-[100vw] mx-auto mb-10">
-           <div class="hero-overlay bg-opacity-100"></div>
-        <div class="w-[100%] px-16 py-16" style="background-image: url(images/banner1.png);">
-               
-                <div class="hero-content text-center text-white flex flex-col w-full max-h-screen">
-                    <div class="space-y-5">
-                        <!-- <img src="images/review/user-1.png" alt="" class="h-16 mx-auto"> -->
-                        <h1 class="text-5xl font-bold">Meet the Team</h1>
-                        <p class="">Meet our impressive team-members. Dedicated and Hard working members paves the way to success</p>
-                    </div>
-                    <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-14 items-center mt-5">
-                        <!-- Member 1 -->
-                        <div class="text-center">
-                            <img src="images/member1.png" alt="" class="w-28 h-28">
-                            <h1 class="font-extrabold text-lg">Awad Hossain</h1>
-                            <p class="font-extrabold">Fruit Expert</p>
-                            <a href="#" class="fa fa-facebook bg-bi_color text-white w-6 h-6 rounded-full text-center"></a>
-                            <a href="#" class="fa fa-twitter bg-bi_color text-white w-6 h-6 rounded-full text-center"></a>
-                            <a href="#" class="fa fa-linkedin bg-bi_color text-white w-6 h-6 rounded-full text-center"></a>
-                        </div>
-                        <!-- Member 2 -->
-                        <div>
-                            <img src="images/member2.png" alt="" class="w-28 h-28">
-                            <h1 class="font-extrabold text-lg">Nasima Hossain</h1>
-                            <p class="font-extrabold">Fruit Expert</p>
-                            <a href="#" class="fa fa-facebook bg-bi_color text-white w-6 h-6 rounded-full text-center"></a>
-                            <a href="#" class="fa fa-twitter bg-bi_color text-white w-6 h-6 rounded-full text-center"></a>
-                            <a href="#" class="fa fa-linkedin bg-bi_color text-white w-6 h-6 rounded-full text-center"></a>
-                        </div>
-                        <!-- Member 3 -->
-                        <div>
-                            <img src="images/member3.png" alt="" class="w-28 h-28">
-                            <h1 class="font-extrabold text-lg">Jawad Hossain</h1>
-                            <p class="font-extrabold">Fruit Expert</p>
-                            <a href="#" class="fa fa-facebook bg-bi_color text-white w-6 h-6 rounded-full text-center"></a>
-                            <a href="#" class="fa fa-twitter bg-bi_color text-white w-6 h-6 rounded-full text-center"></a>
-                            <a href="#" class="fa fa-linkedin bg-bi_color text-white w-6 h-6 rounded-full text-center"></a>
-                        </div>
-                        <!-- Member 4 -->
-                        <div>
-                            <img src="images/member4.png" alt="" class="w-28 h-28">
-                            <h1 class="font-extrabold text-lg">Tasnim Hossain</h1>
-                            <p class="font-extrabold">Fruit Expert</p>
-                            <a href="#" class="fa fa-facebook bg-bi_color text-white w-6 h-6 rounded-full text-center"></a>
-                            <a href="#" class="fa fa-twitter bg-bi_color text-white w-6 h-6 rounded-full text-center"></a>
-                            <a href="#" class="fa fa-linkedin bg-bi_color text-white w-6 h-6 rounded-full text-center"></a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-    </section>
-
-    <!-- Team section end -->
-
-
-    <!-- Choose us section start -->
-
-        <section class="w-full mt-14 mb-10">
-        <div class="text-center max-w-screen-sm mx-auto md:max-w-lg sm:max-w-sm">
-            <h1 class="text-5xl text-black md:text-4xl sm:text-xl">Why Choose Us</h1>
-            <p class="text-sm lg:text-base text-[#504c4c]">Take your time to review our services. We provide the best so you will get best. Choose your plan from our best selection</p>
-        </div>
+    <!-- Team Section End -->
 
 
 
-        <div class="mt-2 flex flex-row max-md::flex-row max-sm:flex-col max-w-max mx-auto items-center md:space-y-7 sm:space-y-5 md:text-center sm:text-center">
-            <!-- left -->
-            <div class="space-y-5">
-                <!-- left 1 -->
-                <div class="flex flex-row gap-5 max-sm:justify-center max-sm:items-center">
-                    <div class="justify-start">
-                        <i class="fa text-2xl text-white bg-gray-400 rounded-full p-1">&#xf0c0;</i>
-                    </div>
-                    <div class="text-left">
-                        <h1>Dedicated Team</h1>
-                        <hr class="divider divider-horizontal w-32 m-0 p-0">
-                        <p>Professional employees are here to deliver the freshest fruit to you</p>
-                    </div>
-                </div>
-                <!-- left 2 -->
-                <div class="flex flex-row gap-5">
-                    <div class="justify-start">
-                        <i class="fa text-2xl text-white bg-gray-400 rounded-full p-1">&#xf004;</i>
-                    </div>
-                    <div class="text-left">
-                        <h1>Fresh is Best</h1>
-                        <hr class="divider divider-horizontal w-32 m-0 p-0">
-                        <p>Professional employees are here to deliver the best fruit to you</p>
-                    </div>
-                </div>
-                <!-- left 3 -->
-                <div class="flex flex-row gap-5">
-                    <div class="justify-start">
-                        <i class="fa text-2xl text-white bg-gray-400 rounded-full p-1">&#xf06b;</i>
-                    </div>
-                    <div class="text-left">
-                        <h1>Gift Certificates</h1>
-                        <hr class="divider divider-horizontal w-32 m-0 p-0">
-                        <p>Professional employees are here to gift the freshest fruit to you</p>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-            <!-- center -->
-            <div>
-                <img src="images/whychoose1.png" alt="" class="w-full h-full">
-            </div>
-
-
-
-
-            <!-- right -->
-            
-                <div class="space-y-5">
-                    <!-- right 1 -->
-                    <div class="flex flex-row-reverse gap-5">
-                        <div class="justify-end">
-                            <i class="fa text-2xl text-white bg-gray-400 rounded-full p-1">&#xf0d1;</i>
-                        </div>
-                        <div class="text-right relative">
-                            <h1>Integrated Suppliers</h1>
-                            <hr class="absolute divider divider-horizontal w-32 right-0 m-0 p-0 md:w-32 sm:w-full">
-                            <p>Professional suppliers are here to deliver the freshest fruit to you</p>
-                        </div>
-                    </div>
-                    <!-- right 2 -->
-                    <div class="flex flex-row-reverse gap-5">
-                        <div class="justify-end">
-                            <i class="fa text-2xl text-white bg-gray-400 rounded-full p-1">&#xf5d1;
-                            </i>
-                        </div>
-                        <div class="text-right relative">
-                            <h1>Sustainable Practice</h1>
-                            <hr class="absolute divider divider-horizontal w-32 right-0 m-0 p-0 md:w-32 sm:w-full">
-                            <p>We follow best industrial practice, analyze and deliver the most demandable product</p>
-                        </div>
-                    </div>
-                    <!-- right 3 -->
-                    <div class="flex flex-row-reverse gap-5">
-                        <div class="justify-end">
-                            <i class="fa text-2xl text-white bg-gray-400 rounded-full p-1">&#xf087;</i>
-                        </div>
-                        <div class="text-right relative">
-                            <h1>The Benefits Only</h1>
-                            <hr class="absolute divider divider-horizontal w-32 right-0 m-0 p-0 md:w-32 sm:w-full">
-                            <p>December sale, get the freshest fruits with top discount </p>
-                        </div>
-                    </div>
-                </div>
-            
-
-
-
-
-        </div>
-
-    </section>
-
-    <!-- Choose us section end -->
-
-
-    <!-- Footer section start -->
-
-        <footer class="footer footer-center p-10 text-base text-white rounded mt-16 bg-[#121212]">
-        <div class="navbar-center flex flex-row gap-2">
-                <img src="images/logo.png" alt="">
-                <h1 class="text-4xl text-white font-bold">Fruit Brust</h1>
-        </div>
-
-        <nav class="grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-3 gap-4 text-sm">
-            <a class="link link-hover">Home</a> 
-            <a class="link link-hover">About us</a> 
-            <a class="link link-hover">Shop</a> 
-            <a class="link link-hover">All Fruits</a> 
-            <a class="link link-hover">Support</a> 
-            <a class="link link-hover">My Account</a>
-        </nav> 
-        <nav>
-            <div class="grid grid-flow-col gap-4 text-2xl">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-google"></a>
-                <a href="#" class="fa fa-linkedin"></a>
-                <a href="#" class="fa fa-youtube"></a>
-                <a href="#" class="fa fa-instagram"></a>
-            </div>
-        </nav> 
-        <aside>
-            <p>Copyright © 2023 - All right reserved by Shamsur Rahaman</p>
-        </aside>
-    </footer>
-
-    <!-- Footer section end -->
 </body>
 </html>
+
+
+
+
+
+
+
+
